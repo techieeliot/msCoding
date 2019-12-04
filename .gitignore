@@ -1,2 +1,5 @@
 .DS_Store
+<<<<<<< HEAD
 javascript/Slack-4.2.0-macOS.dmg
+=======
+>>>>>>> e86e32b... add .gitignore
