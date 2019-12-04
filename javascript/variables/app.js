@@ -53,6 +53,9 @@ console.log(anotherInt + int);
 
 
 // boolean
+/**
+ * 
+ */
 var bool = true;
 var bool2 = false;
 
@@ -87,6 +90,7 @@ cow = 'moooo!' // reassignment of cow
 console.log(cow);
 
 // console.log(chicken); // error will tell you it's not defined
+console.log(chicken); // error will tell you it's not defined
 
 /**
  * 
@@ -233,5 +237,17 @@ console.log(thing4);
  * 
  * 
  */
+
+
+
+
+
+console.log(`${string} ${anotherString}`);
+
+console.log(broken, anotherEx, fix);
+
+
+
+
 
 
