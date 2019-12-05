@@ -53,9 +53,6 @@ console.log(anotherInt + int);
 
 
 // boolean
-/**
- * 
- */
 var bool = true;
 var bool2 = false;
 
@@ -90,7 +87,10 @@ cow = 'moooo!' // reassignment of cow
 console.log(cow);
 
 // console.log(chicken); // error will tell you it's not defined
+<<<<<<< HEAD
 console.log(chicken); // error will tell you it's not defined
+=======
+>>>>>>> 4f2f853... mca day 3 variables, increment, pseudo code, scope
 
 /**
  * 
@@ -107,6 +107,7 @@ console.log(result2);
 console.log(`${string} ${anotherString}`);
 
 // console.log(broken, anotherEx, fix);
+<<<<<<< HEAD
 
 // day 3 lecture
 
@@ -237,17 +238,137 @@ console.log(thing4);
  * 
  * 
  */
+=======
+>>>>>>> 4f2f853... mca day 3 variables, increment, pseudo code, scope
+
+// day 3 lecture
+
+// increment "++"
+// decrement "--"
+
+var foo2 = 0;
+foo2++; // outputs 1
+foo2++; // outputs 2
+console.log(foo2++); //outputs 2
+console.log(foo2); // outputs 3
+console.log(++foo2); //outputs 4
+
+foo2--; // outputs 3
+console.log(foo2);
+
+// +=
+// -=
+
+var number = 0;
+number += 1; // equivalent of ++
+number += 5; // number = number + 5;
+console.log(`${number} is the value of number`);
+
+number -= 6; // number = number - 5;
+console.log(`${number} is the value of number`);
+
+number = 3;
+number *= 6; // number = number * 5;
+console.log(`${number} is the value of number`);
+
+number /= 6; // number = number / 5;
+console.log(`${number} is the value of number`);
+
+var bazMan, watMan, watVader;
+var booRidley = "dude", yoMomma = "Gina";
 
 
+/**
+ * naming conventions for variables:
+ * - don't use reserved keywords, such as break, boolean, return
+ * - no numbers can start a variable
+ * - variables are case sensitive
+ * - underscores can be used, but they are typically not used at the beginning because other programming languages indicate private variables
+ * 
+ * 
+ *  */ 
+var _DONOTCHANGEME = 0; // technically ok, but not conventional
+
+// paid time off fixed rate of 5 hours per paycheck paid bi-weekly.
+// how many hours will you have accrued at the end of a year
+
+var ptoRate = 5;
+var workDay = 1;
+var biWeekly = workDay * 10;
+var ptoHours = []
+var weekPerYear = 52;
+var checkPerYear = weekPerYear/2;
+var ptoPerYear = ptoRate * checkPerYear;
+console.log(ptoPerYear);
+
+function calcTimeOff(num) {
+    // do stuff
+    return num;
+}
+
+// psuedo code can help you problem solve step by step in English statements
+/**
+ * START
+ *  RECEIVE input = 5
+ *  SET thing = input
+ *  SET thingTimesFive = thing x 5
+ *  DISPLAY "Here is the input times 5: thingsTimesFive"
+ * END
+ * 
+ * pseudo code helps you avoid making spaghetti code
+ * 
+ * look up articles on pseudo code keywords
+ */
+
+// SCOPE
+
+// global
+ var foo3 = 'hello';
+ let bar2 = 'mundo';
+
+//  var is global
+// let is block scoped
+
+ { // these brackets create an objects and local scope inside of it
+    // local scope
+    // let and const are block scoped
+
+    var faz = 'hola';
+    let bar2 = 'world';
+    bar2 = 'jackson'
+    console.log(bar2);
+    const yo = 'yoyo';
+    // yo = 'yoyo ma' // this will error the const
+    console.log(yo); // outputs yoyo
+    // don't beat yourself up when you don't figure it out the first time
+ }
+
+ console.log(foo3);
+//  what will log for bar?
+ console.log(bar2); // mundo
+//  console.log(yo); // this will error if uncommented
+ console.log(faz); // this will go into the scope and output hola
+
+//  naming something in a particular scope can stop you from poluting the global scope;
 
 
+// example where const cannot do this thing that var and let do
+var thing = 1;
+let thing2 = 2;
+const thing3 = 3;
+const thing4 = [];
 
-console.log(`${string} ${anotherString}`);
+thing = "magig";
+thing2 = "thingy and no error";
+// thing3 = "error"; // js doesn't like this change
+thing4.push(1);
+console.log(thing4);
 
-console.log(broken, anotherEx, fix);
-
-
-
-
+/**
+ * start with what you know
+ * don't get stumped at what you can't do
+ * 
+ * 
+ */
 
 
