@@ -111,6 +111,9 @@ console.log(myObject.gender);
 console.log(myObject);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1911d4c... add comment for Indra
 // this is comment
 
 let obj = {
