@@ -110,6 +110,7 @@ console.log(myObject.gender);
 
 console.log(myObject);
 
+<<<<<<< HEAD
 // this is comment
 
 let obj = {
@@ -208,4 +209,9 @@ it's it's related data in an object
             acctNum: 58920730764
        }
     ];
+=======
+
+
+
+>>>>>>> f323753... class dec 9 eliot date constructor
 
