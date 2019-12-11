@@ -25,7 +25,11 @@ if (hey == 'hello'){ // 'hello' == 'hello' -> true
  *    !==       <--- not equal value & type
  *    &&       <--- AND
  *    ||       <--- OR
+<<<<<<< HEAD
  *    !        <--- NOT OPERATOR (AKA BANG!)
+=======
+ *    !        <--- NOT
+>>>>>>> 21cd54c... day six of coding bootcamp added conditionals
  *    
  *    conditionals always evaluate to a boolean value (true or false) 
  */
@@ -167,6 +171,7 @@ console.log(1 < 2 || 3 < 0);
 console.log(1 == 2 || 3 == 0);
 
 
+<<<<<<< HEAD
 // NESTING IF STATEMENTS
 /**
  * Decision Tree
@@ -350,4 +355,6 @@ if ("" == false) {
     console.log("Yup!!!");
     
 }
+=======
+>>>>>>> 21cd54c... day six of coding bootcamp added conditionals
 

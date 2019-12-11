@@ -212,9 +212,12 @@ it's it's related data in an object
             acctNum: 58920730764
        }
     ];
+<<<<<<< HEAD
 =======
 
 
 
 >>>>>>> f323753... class dec 9 eliot date constructor
+=======
+>>>>>>> 21cd54c... day six of coding bootcamp added conditionals
 
