@@ -112,6 +112,100 @@ console.log(myObject);
 
 // this is comment
 
+let obj = {
+    firstName: "Eliot",
+    lastName: "Sanford"
+}
+
+console.log(obj.firstName);
+// console.log(obj[firstName]);
+
+let foo = 'firstName'
+console.log(obj.foo); // undefined 
+// you cannont pass a variable to dot notation
+
+console.log(obj[foo]); // Eliot 
+// you can pass a variable to bracket notation 
+// obj[foo] = obj["firstName"]
+
+obj.foo = 'Hello';
+console.log(obj.foo);
+obj['bar'] = 'World';
+console.log(obj.bar);
+
+obj[0] = 'zero';
+obj[1] = 'one';
+console.log(obj[0]);
+// obj.0 will not work and do not do it.
+
+let arr10 = [];
+arr10['foo'] = 'bar';
+console.log(arr10);
+// do not add prop-value pair in an array.
+
+let dude = {
+    firstName: "Eliot",
+    lastName: "Sanford",
+    age: 32,
+};
+
+let bro = ['Eliot', 'Sanford', 32]
+
+console.log(person2[0]); // not able to know what this is until output
+console.log(person.firstName); // able to predict what the output should be
+
+let people = {
+    person1: "Eliot", 
+    person2: "Elaine", 
+    person3: "Elbert"
+};
+
+let peeps = ['Eliot', 'Elaine', 'Elbert'];
 
 
+
+let teachers = [
+    {
+        firstName: "Eliot",
+        lastName: "Sanford",
+        age: 32,
+        lang:['JavaScript', 'Python']
+    },
+    {
+        firstName: "Elaine",
+        lastName: "Weis",
+        age: 42,
+        lang: ['']
+    }
+] /**
+it's best to use an array of objects to 
+relate the information.
+
+if it's like data in an array (e.g. see animal)
+it's it's related data in an object 
+(e.g. see person in people array, 
+    each person has directly related properties)
+    */ 
+   
+   console.log(people3[0]['lang'][0]);
+   
+   let animals = ['dog', 'cat', 'snake'] // these are all animals in the array
+   
+   
+   let netflixProfiles = [
+       {
+           firstName: "Eliot",
+           lastName: "Sanford",
+           age: 32,
+           lang:['JavaScript', 'Python'],
+           acctNum: 58920730764
+        },
+        {
+            firstName: "Ranjita",
+            lastName: "Sanford",
+            age: 30,
+            lang: [''],
+            acctNum: 58920730764
+       }
+    ];
 
