@@ -26,10 +26,14 @@ if (hey == 'hello'){ // 'hello' == 'hello' -> true
  *    &&       <--- AND
  *    ||       <--- OR
 <<<<<<< HEAD
+<<<<<<< HEAD
  *    !        <--- NOT OPERATOR (AKA BANG!)
 =======
  *    !        <--- NOT
 >>>>>>> 21cd54c... day six of coding bootcamp added conditionals
+=======
+ *    !        <--- NOT OPERATOR (AKA BANG!)
+>>>>>>> 8369a85... day 7 of ms coding academy objects and for loops
  *    
  *    conditionals always evaluate to a boolean value (true or false) 
  */
@@ -172,6 +176,9 @@ console.log(1 == 2 || 3 == 0);
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8369a85... day 7 of ms coding academy objects and for loops
 // NESTING IF STATEMENTS
 /**
  * Decision Tree
@@ -247,6 +254,7 @@ if (input1 === "Dog") {
  * 
  */
 
+<<<<<<< HEAD
 let key = 'D'
 switch (key) {
     case 'A':
@@ -266,6 +274,8 @@ switch (key) {
         
         break;
 }
+=======
+>>>>>>> 8369a85... day 7 of ms coding academy objects and for loops
 
 //  TRUTHY and FALSEY
 /**
@@ -321,6 +331,7 @@ if (notNum) {
 } else {
     console.log(false);
 }
+<<<<<<< HEAD
 
 // Example of checking that something is false
 let arrayMissingThirdIndex = [1,2,3];
@@ -357,4 +368,39 @@ if ("" == false) {
 }
 =======
 >>>>>>> 21cd54c... day six of coding bootcamp added conditionals
+=======
+>>>>>>> 8369a85... day 7 of ms coding academy objects and for loops
 
+// Example of checking that something is false
+let arrayMissingThirdIndex = [1,2,3];
+if (arrayMissingThirdIndex[3]) {
+    console.log(true);
+} else {
+    console.log("You need to add another item to your array!");
+}
+
+console.log("Is not NaN == false? It is...");
+if (NaN == false) {
+    console.log("Yup!!!");
+    
+}
+if ("" == false) {
+    console.log("Yup!!!");
+    
+}
+if (null == false) {
+    console.log("Yup!!!");
+    
+}
+if (false == false) {
+    console.log("Yup!!!");
+    
+}
+if (0 == false) {
+    console.log("Yup!!!");
+    
+}
+if ("" == false) {
+    console.log("Yup!!!");
+    
+}
