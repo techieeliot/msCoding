@@ -116,6 +116,9 @@ for (const idx in string) {
 
 // for in should be your go to because it's easier to understand.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fd55654... day 9 ms coding academy loops
 
 {
     let languages = ["javascript", "python", "c++","c#"];
@@ -347,6 +350,10 @@ console.log(`You have this many coins: ${demCounts.dimeCount} dimes, ${demCounts
 // challenge: how many can fit into a coin roller and how many remain?
 // how much money would you have in each denomination and in what dollar amount?
 
+<<<<<<< HEAD
 }
 =======
 >>>>>>> 8369a85... day 7 of ms coding academy objects and for loops
+=======
+}
+>>>>>>> fd55654... day 9 ms coding academy loops
