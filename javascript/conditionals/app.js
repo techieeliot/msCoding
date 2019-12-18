@@ -255,6 +255,9 @@ if (input1 === "Dog") {
  */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ddd94c0... day 8 of ms coding academy - conditionals
 let key = 'D'
 switch (key) {
     case 'A':
@@ -274,8 +277,11 @@ switch (key) {
         
         break;
 }
+<<<<<<< HEAD
 =======
 >>>>>>> 8369a85... day 7 of ms coding academy objects and for loops
+=======
+>>>>>>> ddd94c0... day 8 of ms coding academy - conditionals
 
 //  TRUTHY and FALSEY
 /**
@@ -404,3 +410,4 @@ if ("" == false) {
     console.log("Yup!!!");
     
 }
+
