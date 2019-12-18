@@ -242,6 +242,25 @@ if (input1 === "Dog") {
  * 
  */
 
+let key = 'D'
+switch (key) {
+    case 'A':
+        console.log("Dog");
+        
+        break;
+        case 'B':
+        console.log("Cat");
+        
+        break;
+        case 'C':
+        console.log("Snake");
+        
+        break;
+    default:
+        console.log("Fish");
+        
+        break;
+}
 
 //  TRUTHY and FALSEY
 /**
@@ -331,3 +350,4 @@ if ("" == false) {
     console.log("Yup!!!");
     
 }
+
