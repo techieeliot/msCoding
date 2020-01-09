@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    height: 10vh;
+}
+
+main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        height: 80vh;
+}
+
+#clock {
+    font-size: 5em;
+}
+
+.day {
+    background: skyblue;
+}
+
+.orange {
+    background: lightsalmon;
+}
+
+.dark{
+    color: beige;
+    background: midnightblue;
+}
