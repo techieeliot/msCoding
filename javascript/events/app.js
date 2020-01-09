@@ -41,10 +41,24 @@
         console.log('you clicked away from the input');
     });
 
+    let inputValue = input.value;
+
     let submit = document.getElementById('submit');
     submit.addEventListener('submit', function () {
-        input.value = 
+        updateList(inputValue);
     })
+
+    function updateList() {
+        items.concat(inputValue);
+        console.log(items);
+        el.innerText = item;
+        el.addEventListener('click', function (){ 
+            hide(el)
+        });
+        list.appendChild(el)
+    }
+
+    
 
     // what is the event loop
     // we watched https://www.youtube.com/watch?v=cCOL7MC4Pl0
@@ -66,3 +80,4 @@
      * 
      */
 }
+
