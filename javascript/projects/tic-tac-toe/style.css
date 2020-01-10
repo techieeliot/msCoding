@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    height: 10vh;
+}
+
+main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        height: 80vh;
+}
+
+#game-over {
+    font-size: 2em;
+}
+
+#output {
+    width: 300px;
+    height: 300px;
+}
+#output div {
+    width: 98px;
+    height: 98px;
+    float: left;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
