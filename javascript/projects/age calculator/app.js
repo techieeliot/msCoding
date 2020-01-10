@@ -15,10 +15,15 @@ function areTheyLegal(year){
     let result = false;
     let date = new Date();
     let currentYear = date.getFullYear();
+    let currentMonth = date.getMonth() + 1;
+    let today = date.getUTCDay();
     let age = currentYear - year;
     if(age > 17) {
         result = true;
     }
+    console.log(currentMonth);
+    console.log(today);
+    
     output.innerText = `If your birthday is in ${myBirthYear}, then it is ${result} that you are over 18 years old.`;
 };
 
