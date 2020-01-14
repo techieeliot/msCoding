@@ -1,3 +1,16 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --cell-size: 100px;
+    --mark-size: calc(var(--cell-size)* .9)
+}
+
+body {
+    margin: 0;
+    background: black;
+}
 header {
     display: flex;
     flex-direction: column;
@@ -6,6 +19,7 @@ header {
     align-items: center;
     align-content: stretch;
     height: 10vh;
+    color: white;
 }
 
 main {
@@ -16,10 +30,13 @@ main {
         align-items: center;
         align-content: stretch;
         height: 80vh;
+        width: 100vw;
+        color: white
 }
 
-#game-over {
+#gameOverMessage {
     font-size: 2em;
+    color: white
 }
 
 #output {
@@ -27,14 +44,27 @@ main {
     height: 300px;
 }
 #output div {
-    width: 98px;
-    height: 98px;
+    width: var(--cell-size);
+    height: var(--cell-size);
     float: left;
-    border: 1px solid;
+    border: 1px solid white;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     font-size: 3em;
+}
+
+#output div .x ::before, 
+#output div .x ::after {
+    content: '';
+    width: calc(var(--cell-size) * .15);
+    height: var(--cell-size);
+    background: black;
+   
+}
+
+#restartButton {
+    color: white;
 }
