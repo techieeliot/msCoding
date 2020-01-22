@@ -13,9 +13,9 @@ const WINNING_COMBOS = [
 let count = 0;
 let game = document.querySelector('#output');
 let turn = INPUT_X;
-let grid = [NaN,NaN,NaN,
-            NaN,NaN,NaN,
-            NaN,NaN,NaN];
+let grid = [0,0,0,
+            0,0,0,
+            0,0,0];
 let cellElements = document.querySelectorAll('data-idx');
 let gameOverMessage = document.getElementById('gameOverMessage');
 let gameOver = false;
@@ -23,8 +23,6 @@ let gameOver = false;
 for (let i = 0; i < 9; i++) {
     let el = document.createElement('div');
     el.setAttribute('data-idx', i);
-    el.classList.add('x')
-    el.classList.add('o')
     // click listener
     el.addEventListener('click', function addSymbol () {
         if(el.innerText == '') {
