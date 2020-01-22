@@ -16,3 +16,4 @@ function decrementer(){
     display.innerText = counter;
 };
 
+//testing
