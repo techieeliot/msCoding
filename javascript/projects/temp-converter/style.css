@@ -1,0 +1,54 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --cell-size: 100px;
+    --mark-size: calc(var(--cell-size)* .9)
+}
+
+body {
+    margin: 0;
+    background: black;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    height: 10vh;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    height: 80vh;
+    width: 100vw;
+    color: white
+}
+
+
+#output {
+    width: 100px;
+    height: 100px;
+    color: white;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+
+
+
+
+
