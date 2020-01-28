@@ -18,3 +18,5 @@ v2.12.4
 version major.minor.fix
 
 init ---- initialize
+
+git commit -am "add and message"
