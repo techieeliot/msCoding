@@ -61,7 +61,7 @@ main {
 }
 
 
-.upper, .lower {
+.upper, .middle, .lower{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
