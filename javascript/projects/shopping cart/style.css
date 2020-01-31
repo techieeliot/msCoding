@@ -35,17 +35,8 @@ header {
 }
 
 
-#output {
-    width: 100px;
-    height: 100px;
-    color: white;
-    float: left;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
+#currency {
+    margin-bottom: 3vh;
 }
 
 
