@@ -61,8 +61,9 @@ function showCart() {
     cartList.innerText = '';
     for (let i = 0; i < cart.length; i++) {
         const item = cart[i];
+        let subtotal = item.price / currency.rate;
         let el = document.createElement('li');
-        el.innerHTML = `${item.name} @ ${item.price} Amt:${item.qty} <span class='remove' data-idx="${i}">&times;</span>`;
+        el.innerHTML = `${item.name} @ ${currency.symbol}${subtotal.toFixed(2)} Amt:${item.qty} <span class='remove' data-idx="${i}">&times;</span>`;
         cartList.appendChild(el);
     }
 
@@ -132,7 +133,7 @@ function updateTotal() {
     // tax!!!
     total += total * .07;
     total /= currency.rate;
-    cartTotal.innerHTML = `${currency.symbol} ${total.toFixed(2)}`;
+    cartTotal.innerHTML = `${currency.symbol}${total.toFixed(2)}`;
 }
 
 
