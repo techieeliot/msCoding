@@ -1,6 +1,7 @@
-CREATE DATABASE vending-machine
+CREATE DATABASE vending_machine;
+USE vending_machine;
 CREATE TABLE products (
-    id tinyint auto-increment,
+    id tinyint auto_increment,
     name varchar(20),
     price smallint,
     location varchar(6)
@@ -28,6 +29,40 @@ SELECT p.name, p.price, o.date from orders o join products p on p.id = o.product
 SELECT p.name, p.price, sum from orders o join products p on p.id = o.product_id;
 
 subqueries...
+
+
+<!-- Creating a Stamp Data Model -->
+JOINS - PIVOT TABLES
+You need to tell sql to join the table for stamps and countries in a STAMP_COUNTRY table
+
+Cons: 
+
+One of the drawbacks of a mySQL database is to avoid JOINs. 
+
+NoSQL databases deal with data integrity.
+
+Pros: 
+
+SQL has no issues with data integrity.
+
+NoSQL scales well.
+
+Both develop technical debt. 
+
+You write it one way and you don't consider the scaleability of your project. After a while of issues piling up, then you have to spend time to tackle your technical debt.
+
+You're going to make multiple passes and you're never going to get it right the first time. 
+
+You must go under normalization and normal forms. 
+
+what if you need to change the field.
+
+alter table [tableName] change [fieldName] [fieldName] [type] auto-increment primary key;
+
+
+
+
+
 
 
 
