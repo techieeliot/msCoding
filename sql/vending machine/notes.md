@@ -65,4 +65,3 @@ alter table [tableName] change [fieldName] [fieldName] [type] auto-increment pri
 
 
 
-
