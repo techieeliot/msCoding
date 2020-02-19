@@ -87,10 +87,6 @@ cow = 'moooo!' // reassignment of cow
 console.log(cow);
 
 // console.log(chicken); // error will tell you it's not defined
-<<<<<<< HEAD
-console.log(chicken); // error will tell you it's not defined
-=======
->>>>>>> 4f2f853... mca day 3 variables, increment, pseudo code, scope
 
 /**
  * 
@@ -107,7 +103,6 @@ console.log(result2);
 console.log(`${string} ${anotherString}`);
 
 // console.log(broken, anotherEx, fix);
-<<<<<<< HEAD
 
 // day 3 lecture
 
@@ -238,8 +233,6 @@ console.log(thing4);
  * 
  * 
  */
-=======
->>>>>>> 4f2f853... mca day 3 variables, increment, pseudo code, scope
 
 // day 3 lecture
 

@@ -175,10 +175,6 @@ console.log(1 < 2 || 3 < 0);
 console.log(1 == 2 || 3 == 0);
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8369a85... day 7 of ms coding academy objects and for loops
 // NESTING IF STATEMENTS
 /**
  * Decision Tree
@@ -254,10 +250,7 @@ if (input1 === "Dog") {
  * 
  */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ddd94c0... day 8 of ms coding academy - conditionals
+
 let key = 'D'
 switch (key) {
     case 'A':
@@ -277,11 +270,7 @@ switch (key) {
         
         break;
 }
-<<<<<<< HEAD
-=======
->>>>>>> 8369a85... day 7 of ms coding academy objects and for loops
-=======
->>>>>>> ddd94c0... day 8 of ms coding academy - conditionals
+
 
 //  TRUTHY and FALSEY
 /**
@@ -337,7 +326,7 @@ if (notNum) {
 } else {
     console.log(false);
 }
-<<<<<<< HEAD
+
 
 // Example of checking that something is false
 let arrayMissingThirdIndex = [1,2,3];
@@ -372,10 +361,6 @@ if ("" == false) {
     console.log("Yup!!!");
     
 }
-=======
->>>>>>> 21cd54c... day six of coding bootcamp added conditionals
-=======
->>>>>>> 8369a85... day 7 of ms coding academy objects and for loops
 
 // Example of checking that something is false
 let arrayMissingThirdIndex = [1,2,3];
@@ -410,4 +395,5 @@ if ("" == false) {
     console.log("Yup!!!");
     
 }
+
 

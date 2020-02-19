@@ -114,7 +114,7 @@ convertTemperature(30, 'C');
     }
     
     grader(78);
-<<<<<<< HEAD
+
 }
 {
     // day 2 of functions
@@ -269,9 +269,7 @@ convertTemperature(30, 'C');
 
 
 
-=======
     
 
 
->>>>>>> f827c69... day 10 ms coding academy functions with keke
 }
