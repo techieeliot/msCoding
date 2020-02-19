@@ -1,3 +1,7 @@
+<!-- setting up your mysql -->
+<!-- mysql -uroot -p -->
+<!-- ms1945324 -->
+
 CREATE DATABASE vending_machine;
 USE vending_machine;
 CREATE TABLE products (
