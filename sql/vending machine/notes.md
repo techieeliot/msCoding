@@ -63,6 +63,9 @@ what if you need to change the field.
 
 alter table [tableName] change [fieldName] [fieldName] [type] auto-increment primary key;
 
+<!-- single quotes are for Strings -->
+<!-- Double Quotes are for Database identifiers [and backticks] -->
+
 
 
 
