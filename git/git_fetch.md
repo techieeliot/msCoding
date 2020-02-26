@@ -1,3 +1,5 @@
+First command is only the first time. 
+
 ## git remote add upstream git@github.com:leviking/legendary-palm-tree.git
 ## git fetch upstream
 
