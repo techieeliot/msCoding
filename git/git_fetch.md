@@ -1,4 +1,4 @@
-First command is only the first time. 
+First command is only the first time and the git link will change based on the project that's upstream.
 
 ## git remote add upstream git@github.com:leviking/legendary-palm-tree.git
 ## git fetch upstream
