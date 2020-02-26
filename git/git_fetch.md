@@ -1,6 +1,6 @@
-MacBook-Air-2:legendary-palm-tree eliotsanford$ git remote add upstream git@github.com:leviking/legendary-palm-tree.git
-MacBook-Air-2:legendary-palm-tree eliotsanford$ git fetch upstream
-Enter passphrase for key '/Users/eliotsanford/.ssh/id_rsa': 
+## git remote add upstream git@github.com:leviking/legendary-palm-tree.git
+## git fetch upstream
+
 remote: Enumerating objects: 42, done.
 remote: Counting objects: 100% (42/42), done.
 remote: Compressing objects: 100% (36/36), done.
@@ -8,8 +8,9 @@ remote: Total 40 (delta 7), reused 23 (delta 0), pack-reused 0
 Unpacking objects: 100% (40/40), done.
 From github.com:leviking/legendary-palm-tree
  * [new branch]      master     -> upstream/master
-MacBook-Air-2:legendary-palm-tree eliotsanford$ git pull upstream master
-Enter passphrase for key '/Users/eliotsanford/.ssh/id_rsa': 
+
+## git pull upstream master
+
 From github.com:leviking/legendary-palm-tree
  * branch            master     -> FETCH_HEAD
 Updating 5e7b11f..dee3d61
@@ -35,9 +36,8 @@ Fast-forward
  create mode 100644 garrick/update.sql
  create mode 100644 levi/levi.sql
  create mode 100644 prototype/Untitled-learning.sql
-MacBook-Air-2:legendary-palm-tree eliotsanford$ git push origin master
-Enter passphrase for key '/Users/eliotsanford/.ssh/id_rsa': 
+ 
+## git push origin master
 Total 0 (delta 0), reused 0 (delta 0)
 To github.com:techieeliot/legendary-palm-tree.git
    ce1b33b..dee3d61  master -> master
-MacBook-Air-2:legendary-palm-tree eliotsanford$ 
