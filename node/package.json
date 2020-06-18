@@ -1,0 +1,15 @@
+{
+  "name": "kanye-rest",
+  "version": "1.0.0",
+  "description": "kanye west quote generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "js"
+  ],
+  "author": "Eliot Sanford",
+  "license": "ISC"
+}
