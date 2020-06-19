@@ -20,6 +20,7 @@ function addTaskToList() {
     let deleteButton = document.querySelectorAll('.delete-me')
     deleteButton.forEach(button => button.addEventListener('click', deleteItem));
     itemCount++;
+    resetValue();
 
 }
 
@@ -29,7 +30,8 @@ function setValue() {
 
 function resetValue() {
     let  myInput = document.getElementById('my-input');
-    myInput
+    myInput.value = ""
+    myInput.focus();
 }
 
 function deleteItem() {
